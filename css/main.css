@@ -1,0 +1,201 @@
+:root{
+    --mainColor:#1E202B;
+    --secondryColor: #009AD8;
+    --footerColor:#262936;
+}
+
+nav{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+nav a{
+    color: #fff !important;
+    
+}
+
+nav .logo p{
+    font-size: 10px;
+    color: #cecbcb;
+}
+
+nav ul .nav-link{
+    margin-left: 25px;
+    transition: .5s color;
+    padding-block: 2px;
+    border: 2px solid transparent;
+}
+
+nav ul  .active{
+    border: 2px solid var(--secondryColor);
+    margin-left: 25px;
+    border-radius: 50px;
+    color: var(--secondryColor) !important;
+}
+nav ul .nav-link:hover{
+    border: 2px solid var(--secondryColor);
+    margin-left: 25px;
+    border-radius: 50px;
+    color: var(--secondryColor) !important;
+}
+
+.srh{
+    background-image: url(../images/images2.png);
+    height: 350px;
+}
+
+ form{
+    position: relative;
+}
+ input{
+    border:none;
+    background-color: var(--mainColor);
+    color: #fff;
+}
+ input:focus{
+    border: none;
+    outline:var(--mainColor);
+}
+
+.srh button ,footer button{
+    color: #fff !important;
+    background-color: var(--secondryColor) !important;
+    position: absolute;
+    right:5px;
+    
+}
+
+footer{
+    background-color: var(--footerColor);
+
+}
+footer p{
+    color: #cbc2c2;
+    font-size: 15px;
+
+}
+
+footer ul li {
+    width: 40px;
+    height: 40px;
+    color: var(--secondryColor);
+    margin-left: 10px;
+    font-size: large;
+    padding:10px;
+    background-color: var(--mainColor);
+    border-radius: 50px;
+    transition: 1s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer ul li:hover , footer ul li:hover footer ul li a {
+    background-color: var(--secondryColor);
+}
+
+footer ul li:hover a{
+    color: #fff;
+}
+
+.weather{
+    background-color: var(--mainColor);
+    color: #fff;
+    
+}
+
+.weather .today{
+    background-color: #2D303D;
+    /* color: #fff; */
+}
+
+.weather .todayDetails{
+    background-color: #323544;
+    /* color: #fff; */
+}
+
+.weather .todayDetails div h1{
+    font-size: 5.4285714286rem;
+}
+
+.weather .todayDetails div img{
+    width: 90px;
+    height: 90px;
+}
+
+.weather .tommorrow{
+    background-color: var(--footerColor);
+}
+
+.weather .title{
+    background-color: var(--mainColor);
+}
+.weather .conditionText{
+    color: var(--secondryColor);
+}
+
+.row ,.col-md-4{
+    padding: 0 !important;
+}
+
+
+
+.weather .icon{
+    width: 50px;
+    height: 50px;
+}
+
+.weather .weatherDetail{
+    transform: translateY(-50%);
+}
+
+
+
+
+
+#contactBody{
+    background-color: var(--mainColor);
+}
+
+header .header{
+    background-color: var(--footerColor);
+}
+
+#contactBody section p{
+    font-size: 14px;
+    color: #cbc2c2;
+}
+
+#contactBody section input {
+    width: 49%;
+}
+
+#contactBody section input ,#contactBody section textarea{
+    border: 2px solid var(--footerColor) ;
+    transition: 1s border;
+}
+
+#contactBody section textarea{
+    background-color: var(--mainColor);
+    border-radius: 25px;
+}
+
+#contactBody section textarea:focus{
+    outline: none;
+}
+
+#contactBody section button{
+    color: #fff !important;
+    background-color: var(--secondryColor) !important;
+    display: block;
+    margin-inline-start: auto;
+}
+
+#contactBody section textarea:hover ,#contactBody section input:hover{
+    border: 2px solid var(--secondryColor);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+
+    color:#6F7381;
+}
